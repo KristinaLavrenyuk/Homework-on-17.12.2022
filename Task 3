@@ -1,0 +1,14 @@
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    const float kel = 273.15;
+    const int faren = 32;
+    float temp;
+    cin >> temp;
+
+    cout << temp + kel << " kel" << endl << (temp * (float)9 / 5) + faren << " faren" << endl;
+    system("pause");
+}
