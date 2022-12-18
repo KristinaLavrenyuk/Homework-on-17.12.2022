@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a, b, c; float x, P;
+    cin >> P >> a >> b >> c;
+
+    x = P / (a + b + c);
+    cout << "a: " << x * a << endl << "b: " << x * b << endl << "c: " << x * c << endl;
+    system("pause");
+}
